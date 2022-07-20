@@ -1,0 +1,22 @@
+.main test
+.include "WND:tools.def"
+.include "DBLDIR:activex.def"
+.align
+stack record
+	id	,i4
+	cid	,i4
+	ctrlid	,i4
+.proc
+	xcall u_start
+	id = %ax_tkwin("", 15, 78, cid)
+	ctrlid = %ax_load(cid, "CSCImageProj.CSCImageX")
+	xcall ax_call(ctrlid, "AboutBox")
+	xcall ax_set(ctrlid, "ImageFile", "logo.bmp")
+	xcall ax_show(cid)
+	xcall u_window(D_PLACE, id, 5, 21)
+	xcall u_message("Without stretch mode")
+	xcall ax_set(ctrlid, "Stretch", TRUE)
+	xcall u_message("With stretch mode")
+	xcall ax_input(id)
+	xcall u_finish
+.end
