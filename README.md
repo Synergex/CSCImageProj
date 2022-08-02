@@ -1,11 +1,11 @@
 # CSCImageProj<br />
-**Created Date:** 7/20/2022<br />
-**Last Updated:** 7/20/2022<br />
+**Created Date:** 1/09/2003<br />
+**Last Updated:** 5/21/2008<br />
 **Description:** This control allows you to display an image from a bitmap (.bmp), icon (.ico), metafile (.wmf) or enhanced metafile (.emf) on the screen.<br />
 **Platforms:** Windows<br />
 **Products:** Synergy DBL, ActiveX API<br />
 **Minimum Version:** 6.3<br />
-**Author:** Denise Smelich
+**Author:** Chip Camden
 <hr>
 
 **Additional Information:** Files included about1.dfm, about1.pas, CSCImageImpl1.dfm, CSCImageImpl1.pas, CSCImageProj.dpr, CSCImageProj.ocx, CSCImageProj.tlb, CSCImageProj_TLB.pas, logo.bmp, readme.txt, synax.dll, test.dbl, test.dbr
