@@ -1,0 +1,6 @@
+Window Libr: dtk/c
+Script File: dtk.wsc
+%SCRIPT-File not found
+
+Total of 1 errors and 0 warnings.
+1 script processed
