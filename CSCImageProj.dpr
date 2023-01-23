@@ -5,7 +5,7 @@ uses
   CSCImageProj_TLB in 'CSCImageProj_TLB.pas',
   CSCImageImpl1 in 'CSCImageImpl1.pas' {CSCImageX: TActiveForm} {CSCImageX: CoClass},
   About1 in 'About1.pas' {CSCImageXAbout},
-  AxCtrls in 'm:\dbl\axctrls.pas';
+  AxCtrls in 'axctrls.pas';
 
 exports
   DllGetClassObject,
@@ -14,8 +14,6 @@ exports
   DllUnregisterServer;
 
 {$R *.TLB}
-
-{$R *.RES}
 
 {$E ocx}
 

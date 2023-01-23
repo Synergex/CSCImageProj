@@ -3,7 +3,7 @@ Name			ActiveX control for bitmap image
 Developed by            Camden Software Consulting
                         
 Contact                 Chip Camden
-                        888-442-2633 or (01)916-989-7818
+                        
                         sterling@camdensoftware.com
                         http://www.camdensoftware.com
                         
@@ -11,16 +11,16 @@ Description             This control allows you to display an image
                         from a bitmap (.bmp), icon (.ico), metafile (.wmf)
                         or enhanced metafile (.emf) on the screen.
 
-Files included		about1.dfm, about1.pas, CSCImageImpl1.dfm,
+Files included		about1.dfm, about1.pas, axctrls.pas, CSCImageImpl1.dfm,
 			CSCImageImpl1.pas, CSCImageProj.dpr,
 			CSCImageProj.ocx, CSCImageProj.tlb,
 			CSCImageProj_TLB.pas, logo.bmp, readme.txt,
-			synax.dll, test.dbl, test.dbr
+			test.dbl
 
 Platforms supported	Windows
 
 Minimum Synergy/DE version supported
-			6.3.0
+			6.3.0 and above 32 bit only
 
 _______________
 ActiveX control
@@ -63,7 +63,7 @@ empty space if the control is too large.
 
 This control cannot receive focus and does not respond to user input.
 
-The control was created with Delphi 3 Professional.  Open the project file
+The control was created with Delphi 5 Professional.  Open the project file
 CSCImageProj.dpr.
 
 Test.dbr is included for demonstration purposes.

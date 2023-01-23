@@ -44,7 +44,7 @@ empty space if the control is too large.
 
 This control cannot receive focus and does not respond to user input.
 
-The control was created with Delphi 3 Professional. Open the project file
+The control was created with Delphi 5 Professional. Open the project file
 CSCImageProj.dpr.
 
 Test.dbr is included for demonstration purposes.
